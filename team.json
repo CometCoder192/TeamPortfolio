@@ -1,0 +1,15 @@
+[{
+	"name": "CometCoder192",
+	"isProgrammer": true,
+	"friends": ["Gundalf", "Parth"]
+},
+{
+	"name": "Gundalf",
+	"isProgrammer": true,
+	"friends": ["CometCoder192", "Parth"]
+},
+{
+	"name": "Parth",
+	"isProgrammer": true,
+	"friends": ["Gundalf", "CometCoder192"]
+}]
