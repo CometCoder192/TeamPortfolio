@@ -1,15 +1,39 @@
-[{
-	"name": "CometCoder192",
-	"isProgrammer": true,
-	"friends": ["Gundalf", "Parth"]
-},
 {
-	"name": "Gundalf",
-	"isProgrammer": true,
-	"friends": ["CometCoder192", "Parth"]
-},
-{
-	"name": "Parth",
-	"isProgrammer": true,
-	"friends": ["Gundalf", "CometCoder192"]
-}]
+	"teamName": "MediocreGun",
+	"teamContinent": "Asia",
+	"teamFormed": 2016,
+	"active": true,
+	"members": 
+	[
+		{
+		"name": "CometCoder",
+		"age": 50,
+		"secretIdentity": "CodeMaster",
+		"socials": [
+			"Twitter",
+			"Github",
+			"Discord"
+		]
+		},
+		{
+		"name": "Gundalf",
+		"age": 500,
+		"secretIdentity": "Hobbit",
+		"socials": [
+			"Twitter",
+			"Github",
+			"Discord"
+		]
+		},
+		{
+		"name": "Parth",
+		"age": 2,
+		"secretIdentity": "ReactGod",
+		"socials": [
+			"Twitter",
+			"Github",
+			"Discord"
+		]
+		}
+	]
+}
