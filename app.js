@@ -1,4 +1,4 @@
-
+// JavaScript and JSON by MediocreCoder192
  // Linking elements with variables
  const img = document.getElementById('person-img');
  const author = document.getElementById('author');
