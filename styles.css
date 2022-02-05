@@ -194,6 +194,7 @@ main {
 }
 #person-img:hover {
   opacity: 0.8;
+  transform:scale(1.02);
   transition: 0.3s;
 }
 
