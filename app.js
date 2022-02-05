@@ -43,7 +43,7 @@ const reviews = [
     img:
       "https://www.linkpicture.com/q/LPic61fbeab8acda51666471639.png",
     text:
-      "eque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.. Curabitur tristique turpis nisl, vitae this text is generated randomly because I don't want empty placeholder sorry Suspendisse consequat luctus ligula, eget elementum felis venenatis et.",
+      "eque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.. Curabitur tristique turpis nisl, vitae this text is generated randomly because I don't want empty placeholder sorry Suspendisse consequat luctus ligula, eget elementum felis venenatis et. eque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.. Curabitur tristique turpis nisl, vitae this text is generated randomly because I don't want empty placeholder sorry Suspendisse consequat luctus ligula, eget elementum felis venenatis et.",
     social: 'https://github.com/CometCoder192',
     project: ["IncrementDecrementJS", "https://cometcoder192.github.io/IncrementDecrementJS/"]
   }
