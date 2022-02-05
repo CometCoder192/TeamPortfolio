@@ -151,7 +151,7 @@ main {
 }
 .title {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 .underline {
   height: 0.25rem;
@@ -161,6 +161,7 @@ main {
   margin-right: auto;
 }
 .container {
+  margin-top: 10px;
   width: 80vw;
   max-width: var(--fixed-width);
 }
