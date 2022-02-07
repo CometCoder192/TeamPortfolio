@@ -49,7 +49,7 @@ const reviews = [
   }
 ];
 
-let currentItem = 0; 
+let currentItem = 1; 
 
 /*
 This event listener is triggered once the page loads\
