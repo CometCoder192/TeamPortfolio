@@ -61,6 +61,13 @@ Project Prerequisites:
   box-sizing: border-box;
 }
 
+.fa-chevron-right:before{
+  content:'';
+}
+.fa-chevron-left:before{
+  content:'';
+}
+
 body {
   font-family: var(--ff-secondary);
   background: var(--colour-grey-10);
