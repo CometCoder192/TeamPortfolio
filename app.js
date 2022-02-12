@@ -22,7 +22,7 @@ const reviews = [
       "https://avatars.githubusercontent.com/u/7554961?v=4",
     text:
       "Mauris sed enim nulla. faucibus, vel tempor dui dapibus. Nunc non hendrerit magna. Donec efficitur urna eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in diam ante. Proin arcu metus, placerat eget sapien in, tincidunt mattis diam. Praesent leo justo, auctor sed congue vel, feugiat eu enim. Vivamus eu fermentum est. Curabitur venenatis pellentesque faucibus. Mauris vel venenatis neque.",
-    social: "https://twitter.com/parth_kawatra",
+    social: "https://github.com/parth2187",
     project: ["React Task Maker", "https://github.com/parth2187/react-task-tracker"]
   },
   {
@@ -43,13 +43,13 @@ const reviews = [
     img:
       "https://www.linkpicture.com/q/LPic61fbeab8acda51666471639.png",
     text:
-      "eque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.. Curabitur tristique turpis nisl, vitae this text is generated randomly because I don't want empty placeholder sorry Suspendisse consequat luctus ligula, eget elementum felis venenatis et. eque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.. Curabitur tristique turpis nisl, vitae this text is generated randomly because I don't want empty placeholder sorry Suspendisse consequat luctus ligula, eget elementum felis venenatis et.",
+      "Hi! Its me CometCoder! I'm a team member of \'MediocreGun\'. I like playing around with CSS animations and transitions. Currently, I'm working on learning JavaScript online. ",
     social: 'https://github.com/CometCoder192',
     project: ["IncrementDecrementJS", "https://cometcoder192.github.io/IncrementDecrementJS/"]
   }
 ];
 
-let currentItem = 1; 
+let currentItem = 2; 
 
 /*
 This event listener is triggered once the page loads\
