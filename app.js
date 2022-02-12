@@ -21,7 +21,7 @@ const reviews = [
     img:
       "https://avatars.githubusercontent.com/u/7554961?v=4",
     text:
-      "Mauris sed enim nulla. faucibus, vel tempor dui dapibus. Nunc non hendrerit magna. Donec efficitur urna eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in diam ante. Proin arcu metus, placerat eget sapien in, tincidunt mattis diam. Praesent leo justo, auctor sed congue vel, feugiat eu enim. Vivamus eu fermentum est. Curabitur venenatis pellentesque faucibus. Mauris vel venenatis neque.",
+      "My Name is Parth. I'm a Computer Science student hoping to become a Front End Developer, creating beautiful, accessible, and professional websites for a living. I currently specialise in HTML, CSS and JavaScript to create my websites. I'm a keen user of the react framework for javascript. You'll usually find me either working on my uni assignments or in front of my pc writing up code for new websites.",
     social: "https://github.com/parth2187",
     project: ["React Task Maker", "https://github.com/parth2187/react-task-tracker"]
   },
@@ -32,7 +32,7 @@ const reviews = [
     img:
       "https://img-9gag-fun.9cache.com/photo/azm3d8p_700bwp.webp",
     text:
-      "Nunc ornare lacus a purus cursus, Vestibulum tincidunt cursus sapien, sit amet tristique velit dignissim at. Nunc ac nulla diam. Vivamus vitae eleifend arcu. In tempor sagittis nulla, non pretium lectus vulputate at. Praesent eleifend sodales nibh, vitae volutpat tellus rhoncus et. Vivamus porttitor consectetur tempor. Nullam at lacus bibendum, semper metus ac, finibus libero. Nunc sed lacinia arcu.",
+      "I'm Gundalf, but I also go by Bob. I'm an enthusiast learning how to program on my free time, and I hope to become a full fledged developer one day, capable of adapting to any framework as needed for the job. For the moment, though, I specialise in Python, HTML, CSS and I'm learning Javascript to shore up my skills in front end development",
     social: "https://github.com/TPX-Bob",
     project: ["Meme Generator", "https://github.com/parth2187/meme-generator"]
   },
