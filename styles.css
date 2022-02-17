@@ -237,6 +237,7 @@ br, img {
   cursor: pointer;
   user-select: none;
   font-size: 2rem;
+  border-radius: 5px;
 }
 .prev-btn:hover,
 .next-btn:hover {
@@ -246,7 +247,8 @@ br, img {
 }
 
 .socials {
-  color: red;
+  opacity: 1;
+  color: white;
 }
 
 a {
