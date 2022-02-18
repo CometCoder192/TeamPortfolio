@@ -6,8 +6,6 @@ Project Prerequisites:
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
-
-
 :root {
   /*ff = font family*/
   --colour-primary-1: hsl(205, 86%, 17%);
@@ -15,10 +13,10 @@ Project Prerequisites:
   --colour-primary-3: hsl(205, 72%, 37%);
   --colour-primary-4: hsl(205, 63%, 48%);
 
-  --colour-primary-5: #FF5C8D; /*Job color*/
+  --colour-primary-5: #ff5c8d; /*Job color*/
 
   --colour-primary-6: hsl(205, 89%, 70%);
-  --colour-primary-7: #FFF;
+  --colour-primary-7: #fff;
   --colour-primary-8: hsl(205, 86%, 81%);
   --colour-primary-9: hsl(205, 90%, 88%);
   --colour-primary-10: hsl(205, 100%, 96%);
@@ -33,8 +31,8 @@ Project Prerequisites:
   --colour-grey-7: hsl(211, 27%, 70%);
   --colour-grey-8: hsl(210, 31%, 80%);
   --colour-grey-9: hsl(212, 33%, 89%);
-  --colour-grey-10:  #090538; /*Background*/
-  --colour-white: #2C3333; /*Card Background*/
+  --colour-grey-10: #090538; /*Background*/
+  --colour-white: #2c3333; /*Card Background*/
   --colour-red-dark: hsl(360, 67%, 44%);
   --colour-red-light: hsl(360, 71%, 66%);
   --colour-green-dark: hsl(125, 67%, 44%);
@@ -49,8 +47,6 @@ Project Prerequisites:
   --dark-shadow: 10px 5px 15px rgba(255, 0, 90, 0.9);
   --max-width: 1170px;
   --fixed-width: 620px;
-
-
 }
 
 *,
@@ -61,11 +57,11 @@ Project Prerequisites:
   box-sizing: border-box;
 }
 
-.fa-chevron-right:before{
-  content:'';
+.fa-chevron-right:before {
+  content: "";
 }
-.fa-chevron-left:before{
-  content:'';
+.fa-chevron-left:before {
+  content: "";
 }
 
 body {
@@ -194,7 +190,7 @@ main {
   margin-bottom: 1.5rem;
 }
 #person-img {
-  opacity:0.9;
+  opacity: 0.9;
   width: 100%;
   display: block;
   height: 100%;
@@ -205,11 +201,12 @@ main {
 }
 #person-img:hover {
   opacity: 1;
-  transform:scale(1.02);
+  transform: scale(1.02);
   transition: 0.3s;
 }
 
-br, img {
+br,
+img {
   user-select: none;
 }
 #author {
@@ -232,7 +229,7 @@ br, img {
   font-size: 1.25rem;
   background: transparent;
   border-color: transparent;
-  margin: 0 0.5rem;
+  margin: 1.5rem 3rem;
   transition: var(--transition);
   cursor: pointer;
   user-select: none;
@@ -241,9 +238,9 @@ br, img {
 }
 .prev-btn:hover,
 .next-btn:hover {
-    opacity: 0.7;
-    transform: translateY(-0.1rem);
-    transition: 0.3s;
+  opacity: 0.7;
+  transform: translateY(-0.1rem);
+  transition: 0.3s;
 }
 
 .socials {
