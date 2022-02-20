@@ -233,14 +233,12 @@ img {
 .next-btn {
   color: var(--colour-primary-7);
   transition: 0.3s;
-  font-size: 1.25rem;
   background: transparent;
   border-color: transparent;
-  /* margin: 1.5rem 3rem; */
   transition: var(--transition);
   cursor: pointer;
   user-select: none;
-  font-size: 2rem;
+  font-size: 3rem;
   border-radius: 5px;
 }
 .prev-btn:hover,
