@@ -143,6 +143,9 @@ p {
     width: 95vw;
   }
 }
+
+
+}
 main {
   min-height: 100vh;
   display: grid;
@@ -222,6 +225,12 @@ img {
 #info {
   margin-bottom: 0.75rem;
 }
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
 .prev-btn,
 .next-btn {
   color: var(--colour-primary-7);
@@ -229,7 +238,7 @@ img {
   font-size: 1.25rem;
   background: transparent;
   border-color: transparent;
-  margin: 1.5rem 3rem;
+  /* margin: 1.5rem 3rem; */
   transition: var(--transition);
   cursor: pointer;
   user-select: none;
