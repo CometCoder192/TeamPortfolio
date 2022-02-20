@@ -1,56 +1,60 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolios</title>
-    <!-- Gundalf or Parth please enter fontawesome cdn here -->
-    <link rel="icon" type="image/x-icon" href="256.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <main>
-      <section class="container">
-        <div class="title">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolios</title>
+  <!-- Gundalf or Parth please enter fontawesome cdn here -->
+  <link rel="icon" type="image/x-icon" href="256.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <main>
+    <section class="container">
+      <div class="title">
         <h2>Team MediocreGun</h2>
         <div class="underline"></div>
+      </div>
+
+      <article class="review">
+        <div class="img-container">
+          <img src="./compressedLofi.png" id="person-img" alt="Picture of random person">
         </div>
 
-        <article class="review">
-          <div class="img-container">
-            <img src="./compressedLofi.png" id="person-img" alt="Picture of random person">
-          </div>
+        <h4 id="author">Mediocre Coder</h4>
+        <p id="job">JavaScript and Json</p>
+        <p id="info">This is sample information which is generated via a website because filling in real information is
+          a hard task.</p>
 
-          <h4 id="author">Mediocre Coder</h4>
-          <p id="job">JavaScript and Json</p>
-          <p id="info">This is sample information which is generated via a website because filling in real information is a hard task.</p>
+        <!-- Project name and their links ahead-->
+        <p id="projects">Projects: <a href="#" id="projectLink" target="_blank">projectLink_here</a></p>
 
-          <!-- Project name and their links ahead-->
-          <p id="projects">Projects: <a href="#" id="projectLink" target="_blank">projectLink_here</a></p>
+        <a href="#" class="socials" target="_blank"><i class="fa fa-github" style="font-size:36px;"></i>
+        </a>
 
-          <a href="#" class="socials" target="_blank"><i class="fa fa-github" style="font-size:30px;"></i>
-          </a>
-          
-          <div class="button-container">
-            
-            <!--Previous and Next Buttons-->
-            <button class="prev-btn">
-              <img src="lArr.png" alt="">
-            </button>
-            <button class="next-btn">
-              <img src="rArr.png" alt="">
-            </button>
+        <div class="button-container">
 
-          </div>
+          <!--Previous and Next Buttons-->
+          <button class="prev-btn">
+            <ion-icon name="chevron-back-circle-sharp"></ion-icon>
+          </button>
+          <button class="next-btn">
+            <ion-icon name="chevron-forward-circle-sharp"></ion-icon>
+          </button>
 
-        </article>
-      </section>
-    </main>
-    <!-- javascript -->
-    <script src="app.js" type="module"></script>
-  </body>
+        </div>
+
+      </article>
+    </section>
+  </main>
+  <!-- javascript -->
+  <script src="app.js" type="module"></script>
+  <!-- ion icons for left and right arrow buttons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
 </html>
